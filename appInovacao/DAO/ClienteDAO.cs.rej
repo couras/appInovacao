@@ -1,0 +1,14 @@
+diff a/appInovacao/DAO/ClienteDAO.cs b/appInovacao/DAO/ClienteDAO.cs	(rejected hunks)
+@@ -11,5 +11,12 @@
+         {
+             return true;
+         }
++
++        public List<Model.Cliente> Listar()
++        {
++            List<Cliente> retorno = new List<Cliente>();
++
++            return retorno;
++        }
+     }
+ }
