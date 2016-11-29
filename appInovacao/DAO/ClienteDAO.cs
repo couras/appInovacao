@@ -1,4 +1,5 @@
-﻿using System;
+﻿using appInovacao.Model;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -9,6 +10,13 @@ namespace appInovacao.DAO
         public bool Salvar(object obj)
         {
             return true;
+        }
+
+        public List<Model.Cliente> Listar()
+        {
+            List<Cliente> retorno = new List<Cliente>();
+
+            return retorno;
         }
     }
 }
