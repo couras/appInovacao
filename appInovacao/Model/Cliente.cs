@@ -9,6 +9,7 @@ namespace appInovacao.Model
         private int _id;
         private string _nome;
         private string _idade;
+        private string _sexo;
 
         public int Id
         {

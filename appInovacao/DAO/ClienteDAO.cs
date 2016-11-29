@@ -6,5 +6,9 @@ namespace appInovacao.DAO
 {
     class ClienteDAO
     {
+        public bool Salvar(object obj)
+        {
+            return true;
+        }
     }
 }
