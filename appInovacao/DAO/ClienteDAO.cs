@@ -10,5 +10,15 @@ namespace appInovacao.DAO
         {
             return true;
         }
+
+        public bool Atualizar(object obj)
+        {
+            return true;
+        }
+
+        public bool Deletar(object obj)
+        {
+            return true;
+        }
     }
 }
