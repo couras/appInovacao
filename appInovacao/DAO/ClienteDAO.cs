@@ -1,4 +1,5 @@
-﻿using System;
+﻿using appInovacao.Model;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -19,6 +20,11 @@ namespace appInovacao.DAO
         public bool Deletar(object obj)
         {
             return true;
+        }
+
+        public List<Cliente> listar()
+        {
+            return new List<Cliente>();
         }
     }
 }
